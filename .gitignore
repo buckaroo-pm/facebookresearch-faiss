@@ -16,3 +16,14 @@
 /c_api/gpu/bin/
 /tests/test
 /tests/gtest/
+
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+buckaroo_macros.bzl
+
+trace
+artefacts.json
+cxx.json

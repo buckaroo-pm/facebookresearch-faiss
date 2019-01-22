@@ -1,0 +1,5 @@
+targets = [ "//:faiss" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/xianyi-openblas"
+version = "branch=master"

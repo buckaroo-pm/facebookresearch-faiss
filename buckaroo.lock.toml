@@ -1,0 +1,9 @@
+manifest = "b89fe7fd9bb11ec937a43b6a2632b1d2b83f83194cb6d565f6d841012a27db23"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/xianyi-openblas"
+target = "//:openblas"
+
+[lock."github.com/buckaroo-pm/xianyi-openblas"]
+versions = [ "branch=master" ]
+revision = "9bf8c5fbc8d0927d0b340d68843e0b6fdc52902c"

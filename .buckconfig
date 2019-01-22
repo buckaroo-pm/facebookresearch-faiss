@@ -1,0 +1,12 @@
+[project]
+  ignore = .git
+
+[parser]
+  default_build_file_syntax = SKYLARK
+
+[cxx]
+  should_remap_host_platform = true
+
+[cxx#linux-x86_64]
+  should_remap_host_platform = true
+  cxxflags = -std=c++11 -fPIC -m64 -Wall -g -O3 -fopenmp -Wno-sign-compare -DFINTEGER=int -mavx -msse4 -mpopcnt
