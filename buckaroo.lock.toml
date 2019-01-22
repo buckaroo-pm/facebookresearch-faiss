@@ -6,4 +6,4 @@ target = "//:openblas"
 
 [lock."github.com/buckaroo-pm/xianyi-openblas"]
 versions = [ "branch=master" ]
-revision = "9bf8c5fbc8d0927d0b340d68843e0b6fdc52902c"
+revision = "d1317116c5022b7b416839f35c23d794b13a1c3c"
